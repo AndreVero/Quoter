@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/destination_user_quotes"
+        android:title="@string/title_user_quotes"
+        android:icon="@drawable/ic_user_quotes"/>
+
+    <item
+        android:id="@+id/destination_liked_quotes"
+        android:title="@string/title_liked_quotes"
+        android:icon="@drawable/ic_liked_quotes"/>
+
+    <item
+        android:id="@+id/destination_author_quotes"
+        android:title="@string/title_author_quotes"
+        android:icon="@drawable/ic_author_quotes"/>
+</menu>

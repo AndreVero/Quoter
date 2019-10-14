@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/destination_author_quotes">
+    <fragment
+        android:id="@+id/destination_author_quotes"
+        android:name="com.vero.quoter.ui.quotes.authorquotes.AuthorQuotesFragment"
+        android:label="fragment_author_quotes"
+        tools:layout="@layout/fragment_author_quotes" />
+    <fragment
+        android:id="@+id/destination_liked_quotes"
+        android:name="com.vero.quoter.ui.quotes.likedquotes.LikedQuotesFragment"
+        android:label="fragment_liked_quotes"
+        tools:layout="@layout/fragment_liked_quotes" />
+    <fragment
+        android:id="@+id/destination_user_quotes"
+        android:name="com.vero.quoter.ui.quotes.userquotes.UserQuotesFragment"
+        android:label="fragment_user_quotes"
+        tools:layout="@layout/fragment_user_quotes" />
+</navigation>
